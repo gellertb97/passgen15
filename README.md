@@ -1,4 +1,4 @@
-# passgen15
+# passgen20
 Generates 20 char password from /dev/random
 
 Dependencies:

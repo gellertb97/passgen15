@@ -2,5 +2,8 @@
 Generates 15 char password from /dev/random
 
 Dependencies:
-- bash
-- coreutils (specifically base64, basenc)
+- General:
+  - bash
+  - coreutils (specifically base64, basenc)
+- macOS:
+  - brew

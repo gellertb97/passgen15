@@ -1,2 +1,6 @@
 # passgen15
-Generate 15 char password from /dev/random
+Generates 15 char password from /dev/random
+
+Dependencies:
+- bash
+- coreutils (specifically base64, basenc)

@@ -1,5 +1,5 @@
 #!/bin/bash
-if ((basenc))
+if [ -f '/usr/bin/basenc' ]
 then
   echo
 else

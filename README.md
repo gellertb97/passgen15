@@ -1,5 +1,5 @@
 # passgen15
-Generates 15 char password from /dev/random
+Generates 20 char password from /dev/random
 
 Dependencies:
 - General:

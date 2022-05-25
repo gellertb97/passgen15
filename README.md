@@ -8,6 +8,6 @@ Dependencies:
 - alpine
   - ash (is suitable substitute for bash)
 - debian
-  - ruby-ascii85 (substituting for basenc as it.. doesn't exist in coreutils?? 0.o?)
+  - ruby-ascii85 (substituting for basenc as it.. doesn't exist in coreutils for debain?? 0.o?)
 - macOS:
   - brew

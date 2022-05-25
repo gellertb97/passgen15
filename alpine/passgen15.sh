@@ -5,7 +5,6 @@
 apk add coreutils &>/dev/null
 
 
-## generate password 
-## (alpine aarch64 has some weird /dev/random output consistency issues, correcting by setting head to 4 lines along with 'tr -d' statements for now)
+## generate password
 
-cat /dev/random | head -4 | tr -d '\n' | base64 | tr -d '\n' | cut -c 6-20 | basenc --z85
+cat /dev/random | head -4 | sha384sum | cut -c 6-20 | basenc --z85
